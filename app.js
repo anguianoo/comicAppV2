@@ -2,7 +2,7 @@
 
 let searchUrl = "https://www.googleapis.com/books/v1/volumes";
 
-let googleBooksKey = "AIzaSyAb0qUW7_6r4aYk0xb7tLguRXE2d3rUIbI";
+
 
 
 
