@@ -34,7 +34,7 @@ function displayResults(responseJson) {
 
 <button type="button" class="collapsible"><img class="sizeMe" src='${responseJson.items[i].volumeInfo.imageLinks.thumbnail}'></button>
 <div class="content">
-<p >${responseJson.items[i].volumeInfo.description}</p>
+<a href="${responseJson.items[i].volumeInfo.infoLink}" target="_blank">More info</a>
 </div>
 `
 

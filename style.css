@@ -4,6 +4,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url(img/comicBg.jpg);
+    background-size: auto;
+}
+h2{
+color: white;
 }
 
 button, input[type="text"] {
@@ -15,10 +20,41 @@ button:hover {
 }
 .search-section{
     padding-top: 20px;
+    display: flex;
+    align-content: center;
 }
-#js-search-character{
-    font-size: 20px;
-}
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+
+  
+  /* Style the submit button */
+  .search-icon {
+    float: left;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+
+  }
+  
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 #results-list{
    
     text-align: center;
