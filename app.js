@@ -1,6 +1,4 @@
-let superHeroApiKey = "3352034491530724";
-let marvelKey = "15286a61235a0d799192d631d8680094";
-let privateKey = "ac274b24a1dfe44ebcf7d83582f542f4c019c21d";
+
 
 let searchUrl = "https://www.googleapis.com/books/v1/volumes";
 
@@ -34,7 +32,7 @@ function displayResults(responseJson) {
 `
 <li><h3 class="comic-title">${responseJson.items[i].volumeInfo.title}</h3>
 
-<button type="button" class="collapsible"><img src='${responseJson.items[i].volumeInfo.imageLinks.thumbnail}'></button>
+<button type="button" class="collapsible"><img class="sizeMe" src='${responseJson.items[i].volumeInfo.imageLinks.thumbnail}'></button>
 <div class="content">
 <p >${responseJson.items[i].volumeInfo.description}</p>
 </div>
