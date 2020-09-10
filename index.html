@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comicApp</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Choose your weapon </h1>
+    
+        <form id="js-form">
+            <label for="search-character">choose your character!</label>
+            <input type="text" name="search-character" id="js-search-character" required>
+    
+            <input type="submit" value="Boom!">
+        </form>
+    
+        <p id="js-error-message" class="error-message"></p>
+        <section id="results" class="hidden">
+            <h2>Check these out!</h2>
+            
+                <span id="results-list">
+                </span>
+              
+
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

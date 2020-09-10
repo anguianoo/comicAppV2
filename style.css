@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button, input[type="text"] {
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.error-message {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+li {
+    list-style-type: none;
+}
+#results-list{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    margin: 5px 10px;
+    padding-top: 35px;
+}
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .comic-title{
+      font-size:24;
+  }
